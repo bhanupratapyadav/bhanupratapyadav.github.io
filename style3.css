@@ -1,0 +1,69 @@
+*{text-align:center;}
+body{margin:0px;}
+p,#bhanu,#pratap{margin:20px 170px;
+padding:15px 30px;
+transition:all 1s;}
+p:hover{transform:scale(1.1);
+cursor:pointer;}
+h1,h2,h3{display:inline-block;
+padding:15px 70px;
+margin-top:80px;}
+.bat,h3{color:red;
+border:6px solid rgba(0,0,255,0.3);
+font-style:italic;
+font-weight:bold;
+font-size:300%;}
+.mall,#bhanu,#pratap,#yadav{color:white;
+background-color:green;
+font-size:130%;
+font-style:italic;
+font-family:georgia;
+font-weight:bold;
+line-height:30px;}
+h2{color:blue;
+background-color:rgba(255,0,0,.2);
+font-size:230%;
+font-style:italic;
+font-weight:bold;
+font-family:"georgia";}
+#bhanu{color:orange;
+background-color:rgba(0,0,255,0.2);}
+#pratap{color:yellow;
+background-color:black;
+font-family: 'Anton', sans-serif;
+font-size:180%;
+line-height:45px;
+text-decoration:underline;
+font-weight:normal;}
+#yadav{color:green;
+border:6px dashed rgba(255,0,0,.7);
+background-color:pink;
+font-size:300%;
+font-family: 'Anton', sans-serif;
+line-height:55px;
+font-weight:normal;}
+img{float:left;}
+h3{clear:both;
+font-size:250%;}
+img+p{font-style:italic;
+font-weight:bold;
+font-size:190%;
+line-height:40px;}
+.box{border:5px solid blue;
+	display:inline-block;
+	padding:15px 220px 40px 220;
+	margin:0px 200px 0px 10px;
+	width:311px;
+	height:40px;
+}
+.size{font-size:25px;}
+span{font-size:2em;}
+img{height:300px;
+width:400px;
+margin:10px;
+transition:all 1s;}
+.container{display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+img:hover{transform:scale(1.1);}
